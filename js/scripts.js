@@ -1,8 +1,9 @@
 // scripts.js
 
-// zakomentowałem alert w sposób blokowy
-/* alert('nie dziala,');
-*/
+var a = 10,
+    h = 20,
+    triangleArea = a*h/2;
 
-// zakomentowałem console.log w sposób liniowy
-// console.log('nie dziala');
+
+console.log('Triangle field with base a: ' + a + ' and height h: ' + h + ' is equal to: ' + triangleArea);
+alert( + triangleArea)
